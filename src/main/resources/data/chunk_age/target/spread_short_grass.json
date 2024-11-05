@@ -1,0 +1,25 @@
+{
+  "type": "chunk_age:specific_block",
+  "target_predicate": [
+    {
+      "type": "chunk_age:block_predicate",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:short_grass",
+          "Properties": {}
+        }
+      }
+    }
+  ],
+  "task": {
+    "type": "chunk_age:set_block",
+    "blockstate_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:short_grass",
+        "Properties": {}
+      }
+    }
+  }
+}

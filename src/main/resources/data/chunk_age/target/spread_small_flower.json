@@ -1,0 +1,18 @@
+{
+  "type": "chunk_age:specific_block",
+  "target_predicate": [
+    {
+      "type": "chunk_age:block_predicate",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:poppy",
+          "Properties": {}
+        }
+      }
+    }
+  ],
+  "task": {
+    "type": "chunk_age:set_small_flower"
+  }
+}

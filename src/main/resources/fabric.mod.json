@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "chunk_age",
+  "version": "${version}",
+  "name": "Chunk Age",
+  "description": "",
+  "authors": [
+    "harleylizard"
+  ],
+  "credits": {},
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "All rights reserved. 2024 harleylizard",
+  "icon": "assets/chunk_age/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.harleylizard.chunkage.ChunkAge"
+    ],
+    "cardinal-components": [
+      "com.harleylizard.chunkage.ChunkAge"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.21.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "cardinal-components-base": ">=6.1.1",
+    "cardinal-components-chunk": ">=6.1.1"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "cardinal-components": [
+      "chunk_age:chunk_age"
+    ]
+  }
+}
